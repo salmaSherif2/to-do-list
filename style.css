@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-image: url(goodThingsTakeTime3.jpg);
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+}
+/* .todo
+{
+    display: flex;
+    flex-direction: column;
+} */
+
+li
+{
+    width: 75%;
+    margin: auto;
+border-radius: 50px;
+background:white;
+margin-bottom: 25px;
+text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+i:hover{
+    background-color: red;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+    padding: 2px;
+
+}
+i{
+    padding-top: 5px;
+}

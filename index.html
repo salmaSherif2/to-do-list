@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>To-Do-List</title>
+</head>
+<body >
+    <div class=" w-75 p-5    vh-100">
+        <div class="to-do-list  ">
+            <h1 class="text-center ">To-Do-List</h1>
+            <div class="add-task   m-auto w-75 text-center">
+            
+                <input type="text"placeholder="enter your task" class=" w-100 p-2 d-block my-5  bg-white shadow-lg rounded-3 border-2 " id="userText">
+                <button  onclick="addItem()" class="rounded-5 p-2 w-25 fw-bold bg-info bg-opacity-50 border-0 " id="submit">submit</button>
+                <button onclick="deleteAll()" class="rounded-5 p-2 w-25 fw-bold bg-danger bg-opacity-75 border-0 mx-4" id="delete">delete ALL Items</button>              
+            </div>
+
+            <div class=" bg-danger  m-5 rounded-5 shadow-lg bg-white">
+                <h2 class="text-center py-3  ">Tasks that Added</h2>
+                
+                  <ul id="mylist" class=" bg-info p-3 muted">
+<!-- <li>
+    check <i class="fa-solid fa-trash "></i> 
+</li> -->
+                </ul>
+            </div>
+            
+         </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
